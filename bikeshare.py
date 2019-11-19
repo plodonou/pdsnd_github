@@ -272,7 +272,7 @@ def user_stats(df):
     """Displays statistics on bikeshare users."""
 
     print('\nCalculating User Stats...\n')
-    start_time = time.time()
+ 
 
     # Display counts of user types
     user_types = df['User Type'].value_counts()
@@ -318,6 +318,7 @@ def main():
         user_stats(df)
 
         while True:
+            #A variable that allows the user to set a given number of records to show
             showed_records = df.head(number_of_showed_records)
        
             print(showed_records)
