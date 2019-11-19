@@ -318,6 +318,7 @@ def main():
         user_stats(df)
 
         while True:
+            #A variable that allows the user to set a given number of records to show
             showed_records = df.head(number_of_showed_records)
        
             print(showed_records)
