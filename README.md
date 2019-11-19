@@ -11,5 +11,5 @@ Use of Python to explore data related to bikeshare systems for three major citie
 chicago.csv new_york_city.csv washington.csv bikeshare_2.py
 
 ### Credits
-http://www.udacity.com and http://www.techleaders.eg/aal/git
+http://www.udacity.com and http://www.techleaders.eg/aal/git and https://mode.com/sql-tutoriel
 
